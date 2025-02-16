@@ -21,7 +21,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0aab57c8751989b303b34fb36783d3bf&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=***************************************`
       );
 
       if (!response.ok) {
